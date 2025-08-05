@@ -3,6 +3,11 @@
   "name": "Unclickbait",
   "version": "0.1",
   "description": "Unclickbait Websites NOW Using Pure CSS!",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "unclickbait@teuncm"
+    }
+  },
   "content_scripts": [
     {
       "matches": [
