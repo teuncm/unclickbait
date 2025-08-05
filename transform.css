@@ -18,7 +18,8 @@ h6 {
 /* Prevent lowercasing important elements */
 form *,
 code *,
-pre * {
+pre *,
+[contenteditable="true"] {
   text-transform: none !important;
 }
 
