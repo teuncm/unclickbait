@@ -31,5 +31,5 @@ a {
 img,
 video,
 aside {
-  filter: contrast(85%) grayscale(100%) !important;
+  filter: contrast(60%) grayscale(100%) !important;
 }
