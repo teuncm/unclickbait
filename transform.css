@@ -19,7 +19,8 @@ h6 {
 form *,
 code *,
 pre *,
-[contenteditable="true"] {
+[contenteditable="true"],
+textarea {
   text-transform: none !important;
 }
 
