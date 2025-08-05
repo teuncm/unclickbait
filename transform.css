@@ -1,28 +1,36 @@
-/* Force all text to lowercase */
+/* Force most text to lowercase */
 div,
 p,
 span,
 a,
 li,
 td,
-th {
+th,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-transform: lowercase !important;
 }
 
 /* Prevent lowercasing important elements */
 form *,
-code * {
+code *,
+pre * {
   text-transform: none !important;
 }
 
 /* Remove underlines from links */
 a {
-  text-decoration: none !important;
+  filter: hue-rotate(180deg) !important;
+  text-decoration: none !important
 }
 
 /* Make thumbnails and popups boring and gray */
 img,
 video,
 aside {
-  filter: contrast(75%) grayscale(100%) !important;
+  filter: contrast(85%) grayscale(100%) !important;
 }
