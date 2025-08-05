@@ -24,8 +24,7 @@ pre * {
 
 /* Remove underlines from links */
 a {
-  filter: hue-rotate(180deg) !important;
-  text-decoration: none !important
+  text-decoration: none !important;
 }
 
 /* Make thumbnails and popups boring and gray */
