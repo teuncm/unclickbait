@@ -1,0 +1,28 @@
+/* Force all text to lowercase */
+div,
+p,
+span,
+a,
+li,
+td,
+th {
+  text-transform: lowercase !important;
+}
+
+/* Prevent lowercasing important elements */
+form *,
+code * {
+  text-transform: none !important;
+}
+
+/* Remove underlines from links */
+a {
+  text-decoration: none !important;
+}
+
+/* Make thumbnails and popups boring and gray */
+img,
+video,
+aside {
+  filter: saturate(50%) grayscale(100%) !important;
+}

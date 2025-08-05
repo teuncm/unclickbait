@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Unclickbait",
+  "version": "0.1",
+  "description": "Unclickbait Websites NOW Using Pure CSS!",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [
+        "transform.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
