@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Unclickbait",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "Unclickbait Websites NOW Using Pure CSS!",
   "browser_specific_settings": {
     "gecko": {
